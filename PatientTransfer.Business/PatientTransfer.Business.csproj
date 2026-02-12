@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PatientTransfer.Data\PatientTransfer.Data.csproj" />
+    <ProjectReference Include="..\PatientTransfer.Domain\PatientTransfer.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

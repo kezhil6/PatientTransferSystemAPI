@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="PatientTransfer.Business/PatientTransfer.Business.csproj" />
+  <Project Path="PatientTransfer.Data/PatientTransfer.Data.csproj" />
+  <Project Path="PatientTransfer.Domain/PatientTransfer.Domain.csproj" />
+  <Project Path="PatientTransferSystem/PatientTransfer.API.csproj" />
+</Solution>
