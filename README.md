@@ -1,6 +1,6 @@
 # Patient Transfer Report API
 
-## 📌 Project Overview
+## Project Overview
 
 This project replaces an legacy **Entity Framework 6 implementation** that was experiencing performance timeouts under heavy load. The new solution is a high-performance REST API built with **.NET** and **Dapper** to efficiently generate a **Patient Transfer Report** by joining data from three database tables:
 
@@ -12,7 +12,7 @@ The system is designed with scalability, performance, and clean architecture in 
 
 ---
 
-## 🎯 Scenario
+## Scenario
 
 The existing EF6-based system was unable to handle high traffic and complex joins efficiently. The goal of this project is to:
 
@@ -23,7 +23,7 @@ The existing EF6-based system was unable to handle high traffic and complex join
 
 ---
 
-## ✅ Requirements Implemented
+## Requirements Implemented
 
 ### 1. High-Performance Data Access with Dapper (+2)
 
@@ -96,7 +96,7 @@ This separation improves:
 
 ---
 
-## 🏗 Project Structure
+## Project Structure
 
 ```
 PatientTransferSystem
@@ -116,7 +116,7 @@ PatientTransferSystem
 
 ---
 
-## 🗄 Database Schema
+## Database Schema
 
 The report joins data from:
 
@@ -128,11 +128,11 @@ The API performs optimized joins to fetch the transfer report efficiently.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
-* .NET 8 SDK
+* .NET 10 SDK
 * SQL Server
 * Visual Studio
 
@@ -170,7 +170,7 @@ https://localhost:<port>/swagger
 
 ---
 
-## 🔍 API Endpoint
+## API Endpoint
 
 ### Get Patient Transfer Report
 
@@ -191,7 +191,7 @@ Example:
 
 ---
 
-## ⚡ Performance Optimizations
+## Performance Optimizations
 
 * Dapper for lightweight data access
 * Async database operations
@@ -201,7 +201,7 @@ Example:
 
 ---
 
-## 🧪 Testing
+## Testing
 
 The API can be tested using:
 
@@ -211,7 +211,7 @@ The API can be tested using:
 
 ---
 
-## 📝 Summary
+## Summary
 
 This project demonstrates how replacing EF6 with Dapper and applying N-tier architecture significantly improves performance and maintainability. It provides a secure, scalable solution for generating patient transfer reports under heavy load.
 
